@@ -16,6 +16,6 @@ Inicio
       leia(n)
    fimenquanto
    para i de 1 ate n passo 1 faca
-   escreval("Resultado da formula para o termo", i, ": ",(i+2)-1)
+      escreval("Resultado da formula para o termo", i, ": ",(i+2)-1)
    fimpara
 Fimalgoritmo

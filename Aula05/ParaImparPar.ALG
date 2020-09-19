@@ -26,6 +26,6 @@ Inicio
       senao
          escreval(j, " É IMPAR")
       fimse
-      fimpara
+   fimpara
 
 Fimalgoritmo

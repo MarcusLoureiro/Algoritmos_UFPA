@@ -20,42 +20,42 @@ Inicio
    escreval("Para DIVIDIR: / ")
    leia(opcao)
    enquanto (opcao <> "+") e (opcao <> "-") e (opcao <> "*") e (opcao <> "/") faca
-   escreval("OPCÂO INVÁLIDA")
-   escreval("Digite:")
-   escreval("Para SOMAR: + ")
-   escreval("Para SUBTRAIR: - ")
-   escreval("Para MULTIPLICAR: * ")
-   escreval("Para DIVIDIR: / ")
-   leia(opcao)
-fimenquanto
-escolha(opcao)
-caso "+"
-   resultado <- num1 + num2
-   escreval(num1)
-   escreval(num2)
-   escreval("  +")
-   escreval(resultado)
-caso "-"
+      escreval("OPCÂO INVÁLIDA")
+      escreval("Digite:")
+      escreval("Para SOMAR: + ")
+      escreval("Para SUBTRAIR: - ")
+      escreval("Para MULTIPLICAR: * ")
+      escreval("Para DIVIDIR: / ")
+      leia(opcao)
+   fimenquanto
+   escolha(opcao)
+   caso "+"
+      resultado <- num1 + num2
+      escreval(num1)
+      escreval(num2)
+      escreval("  +")
+      escreval(resultado)
+   caso "-"
       resultado <- num1 - num2
       escreval(num1)
       escreval(num2)
       escreval("  -")
       escreval(resultado)
-caso "*"
-         resultado <- num1 * num2
+   caso "*"
+      resultado <- num1 * num2
+      escreval(num1)
+      escreval(num2)
+      escreval("  *")
+      escreval(resultado)
+   caso "/"
+      se (num2 <> 0) entao
+         resultado <- num1 / num2
          escreval(num1)
          escreval(num2)
-         escreval("  *")
+         escreval("  /")
          escreval(resultado)
-caso "/"
-         se (num2 <> 0) entao
-            resultado <- num1 / num2
-            escreval(num1)
-            escreval(num2)
-            escreval("  /")
-            escreval(resultado)
-            senao
-            escreval("Não é permitida divisão com 0")
-         fimse
-fimescolha
+      senao
+         escreval("Não é permitida divisão com 0")
+      fimse
+   fimescolha
 Fimalgoritmo
